@@ -12,9 +12,6 @@ class Solution {
             if(a<=x && b>x){
                 break;
             }
-            if(i==46340){
-                System.out.println("a:"+a+" / b:"+b);
-            }
             i++;
         }
         return Math.toIntExact(i);
